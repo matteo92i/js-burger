@@ -20,27 +20,86 @@
         <h3>Ingredienti</h3>
 
         <main>
-            <input type="checkbox" class="check-somma" 
-            id="check-ingrediente"  value="5">
-            <label for="check-ingrediente">5</label>
-            <input type="checkbox" class="check-somma" 
-            id="check-ingrediente1"  value="6">
-            <label for="check-ingrediente1">6</label>
-            <input type="checkbox" class="check-somma" 
-            id="check-ingrediente2"  value="7">
-            <label for="check-ingrediente2">7</label>
+            <div class="row">
+                <div class="col-6">
+                    <img class="img2" src="./img 2/cheese.svg" alt="cheese">
+                    <span>Cheese</span>
+                    <input type="checkbox" class="check-somma" 
+                    id="check-ingrediente"  value="5">
+                    <label for="check-ingrediente">add</label>
+                </div>
 
+                <div class="col-6">
+                    <img class="img2" src="./img 2/tomato.svg" alt="tomato">
+                    <span>Tomato</span>
+                    <input type="checkbox" class="check-somma" 
+                    id="check-ingrediente1"  value="3">
+                    <label for="check-ingrediente1">add</label>
+                </div>
+            </div>
+            <div class="row margin1">
+                <div class="col-6">
+                    <img class="img2" src="./img 2/fried-egg.svg" alt="Egg">
+                    <span>EGG</span>
+                    <input type="checkbox" class="check-somma" 
+                    id="check-ingrediente"  value="5">
+                    <label for="check-ingrediente">add</label>
+                </div>
 
-            <button id="calcolaPrezzo">Calcola prezzo</button>
-            
+                <div class="col-6">
+                    <img class="img2" src="./img 2/lettuce.svg" alt="Lettuce">
+                    <span>Lettuce</span>
+                    <input type="checkbox" class="check-somma" 
+                    id="check-ingrediente1"  value="3">
+                    <label for="check-ingrediente1">add</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img class="img2" src="./img 2/mustard.svg" alt="Mustard">
+                    <span>Mustard</span>
+                    <input type="checkbox" class="check-somma" 
+                    id="check-ingrediente"  value="1">
+                    <label for="check-ingrediente">add</label>
+                </div>
+
+                <div class="col-6">
+                    <img class="img2" src="./img 2/ketchup.svg" alt="ketchup">
+                    <span>ketchup</span>
+                    <input type="checkbox" class="check-somma" 
+                    id="check-ingrediente1"  value="1">
+                    <label for="check-ingrediente1">add</label>
+                </div>
+            </div>
 
         </main>
 
+        <div>
+            <span>Inserire codice sconto</span>
+            <input type="text" placeholder="codice-sconto" id="sconto">
+            <label for="sconto"></label>
+        </div>
+            
+
+
+        <button id="calcolaPrezzo">Calcola prezzo</button>
+
+
+
+            
+            
+
+
+        <footer id="sommaFinale">
+
+        </footer>
+
     
             
-    <script src="./js/script.js" type="tet/javascript"></script>
+    
 
     </div>
+    <script src="./js/script.js" type="text/javascript"></script>
     
 </body>
 </html>
