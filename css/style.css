@@ -5,5 +5,20 @@
 header{
     width: 100%;
     background-color: yellow;
-    height: 100px;
+    height: 150px;
+}
+.burger{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.margin{
+    margin-top: 60px;
+}
+h3{
+    font-size: 30px;
+    margin-top: 15px;
 }
