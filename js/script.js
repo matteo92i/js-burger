@@ -8,9 +8,6 @@ calcolaPrezzo.addEventListener( 'click', function() {
     var checkSomma = document.getElementsByClassName('check-somma');
     var sconto = "matteopro";
     var codiceSconto = document.getElementById('sconto')
-
-
-
     for(var i =0; i < checkSomma.length; i++){
         if(checkSomma[i].checked){
 
@@ -18,15 +15,18 @@ calcolaPrezzo.addEventListener( 'click', function() {
 
         }
     }
-    
+    sommaBurger.innerHTML= + risultatoFinale + '£'
     
     if(codiceSconto.value === sconto){
     alert('il prezzo è stato scontato')
-    sommaBurger.innerHTML='il risultato è' + risultatoFinale - 5 + '£'
+    sommaBurger.innerHTML=  parseInt(+risultatoFinale + -5 )+ '£'
 }
+
+})
+
+
 
     
 
 
-})
 
