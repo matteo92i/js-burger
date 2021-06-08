@@ -1,0 +1,9 @@
+.container{
+    max-width: 50%;
+}
+
+header{
+    width: 100%;
+    background-color: yellow;
+    height: 100px;
+}
